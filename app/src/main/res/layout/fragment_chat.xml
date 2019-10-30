@@ -7,13 +7,17 @@
 
 
     <LinearLayout android:layout_width="match_parent"
+                  android:gravity="bottom"
                   android:layout_height="wrap_content">
         <EditText
-                android:layout_width="341dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName"
+                android:inputType=""
                 android:ems="10"
-                android:id="@+id/message_et"/>
+                android:maxLines="10"
+                android:id="@+id/message_et"
+                android:text=""/>
         <Button
                 android:text="->"
                 android:layout_width="68dp"
